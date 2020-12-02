@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+/* navbar */
+.navbar{
+  background: rgb(253, 252, 252);
+  box-shadow: 1px 1px 8px rgb(88, 88, 88);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.logo{
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 30px;
+}
+
+.options{
+  list-style: none;
+  display: none;
+  background: white;
+  position: fixed;
+
+}
+.options li{
+  list-style: none;
+  text-decoration: none;
+}
+nav div a i{
+  font-size: 20px;
+}
+
+
+
+
+
+
+/* Banner */
+.banner{
+  background-image: url('../img/banner.jpeg');
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  height: 597px;
+  text-shadow: 1px 1px 8px black;
+  color: white;
+}
+.overlay{
+  background: rgba(0, 0, 0, 0.459);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 110px 2%;
+}
+.main-title{
+  margin: 24px 0;
+  font-size: 38px;
+  font-weight: 500;
+}
+.banner-description{
+  font-family: 'Nunito', sans-serif;
+  max-width: 500px;
+  color: #ffffffc9;
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-cv{
+  border: solid 2px white;
+  border-radius: 30px;
+  padding: 15px 32px;
+  color: white;
+  display: inline-block;
+  margin-top: 35px;
+  text-decoration: none;
+  font-family: 'Nunito' sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: 0.5s;
+}
+.button-cv:hover{
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+
+
+
+
+/* About section */
+.container{
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.portrait{
+  padding: 4px;
+  border: solid 1px #dee2e6;
+  border-radius: .25rem;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.social-networks{
+  list-style: none;
+}
+.icon-sn{
+  display: inline-block;
+  padding: 8px;
+  margin-right: 0.5rem;
+  border: solid 2px #dee2e6;
+  border-radius: 50%;
+  width: 22px;
+  transition: 0.5s;
+}
+.icon-sn:hover{
+  color: #E65F78;
+  border-color: #E65F78;
+  transition: 0.5s;
+}
+.color{
+  color:black;
+  transition: 0.5s;
+}
+.color:hover{
+  color: #E65F78;
+  transition: 0.5s;
+}
+
+
+/* Services section */
+.target{
+  border: solid 1px #e8e8e8;
+  border-radius: 3px;
+  padding: 24px;
+  margin-bottom: 30px;
+}
+.icon-services{
+  font-size: 60px;
+}
+
+/* Freelancer section */
+.hire-button{
+  color: white;
+  font-weight: 600;
+  background: #E65F78;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 15px 32px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.hire-button:hover{
+  background: #e63051;
+  transition: 0.5s;
+}
+
+/* Clients section */
+.icon-quote{
+  font-size: 45px;
+}
+.client-img{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.client-comment{
+  font-size: 18px;
+  font-style: italic;
+  max-width: 690px;
+  margin: 0 auto;
+}
+.large-line-clients-section{
+  width: 19px;
+  height: 5.5px;
+  margin: 0 1px;
+  border-radius: 2px;
+  background: #E65F78;
+  transition: 0.5s;
+  display: inline-block;
+}
+.short-line-clients-section{
+  width: 13px;
+  height: 5.5px;
+  background: #e595a4;
+}
+.short-line-clients-section:hover{
+  background: #E65F78;
+  transition: 0.5s
+}
+
+
+/* 
+=======================Components=======================
+*/
+
+.line{
+  margin: 15px auto;
+  background: #E65F78;
+  width: 40px;
+  height: 2px;
+  transition: 0.5s;
+}
+.gray-text {
+  color: #6C757D;
+}
+.pink-text{
+  color: #E65F78;
+}
+.section{
+  padding: 100px 0;
+}
+
+
+
+
+
+
+/* 
+=======================Generic clases=======================
+*/
+
+.center-text{
+  text-align: center;
+}
+.description{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.bg-gray{
+  background: #F8F9FA;
+}
+.space-top{
+  margin-top: 24px;
+}
+.space-top-3{
+  margin-top: 90px;
+}
+.bold{
+  font-weight: 600;
+}
+.font-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color: black;
+}
+
+/* Titles */
+.title-1{
+  font-size: 2.5rem;
+}
+.title-2{
+  font-size: 2.1rem;
+}
+.title-4{
+  font-size: 1.6rem;
+}
+.title-5{
+  font-size: 1.3rem;
+}
+
+
+
+
+/* 
+=======================Responsity=======================
+*/
+
+@media(min-width: 576px){
+  .container{
+    max-width: 579px;
+  }
+}
+@media(min-width: 768px){
+  .container{
+    max-width: 721px;
+  }
+  .navbar-md{
+    height: 70px;
+  }
+  .banner-md{
+    height: 100vh;
+  }
+  .overlay-md{
+    padding-top: 180px;
+  }
+  .main-title-md{
+    font-size: 3.2rem;
+  }
+}
+@media(min-width: 992px){
+  .container{
+    max-width: 976px;
+  }
+}
