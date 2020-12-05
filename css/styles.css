@@ -7,6 +7,7 @@
   margin: 0;
   font-weight: 400;
   font-family: 'Nunito', sans-serif;
+  text-decoration: none;
 }
 
 
@@ -54,11 +55,9 @@
 }
 #menu li{
   list-style: none;
-  text-decoration: none;
   z-index: -1;
 }
 .option{
-  text-decoration: none;
   z-index: -1;
   display: block;
   transition: 0.2s;
@@ -115,7 +114,6 @@ nav div a i{
   color: white;
   display: inline-block;
   margin-top: 35px;
-  text-decoration: none;
   font-family: 'Nunito' sans-serif;
   font-weight: bold;
   font-size: 0.9rem;
@@ -193,7 +191,6 @@ nav div a i{
   display: inline-block;
   padding: 15px 32px;
   font-size: 14px;
-  text-decoration: none;
   transition: 0.5s;
 }
 .hire-button:hover{
@@ -269,9 +266,6 @@ nav div a i{
   color: white;
   transition: 0.5s
 }
-.works-buttom a{
-  text-decoration: none;
-}
 .work{
   width: 100%;
   box-sizing: border-box;
@@ -296,6 +290,62 @@ nav div a i{
   display: block;
   transition: 0.3s;
 }
+.read-more{
+  font-size: 1.1rem;
+  display: inline-block;
+  margin-top: 9px;
+}
+
+
+
+/* blog section */
+.card{
+  border-radius: 2px;
+  background: white;
+  padding: 7px;
+  padding-bottom: 20px;
+}
+.post-header{
+  width: 100%;
+  border-radius: 4px;
+}
+.post-title{
+  display: inline-block;
+  margin-top: 11px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #343A40;
+  transition: 0.3s;
+}
+.post-title:hover{
+  color: black;
+  text-shadow: 0.5px 0.5px 3px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+
+
+/* Footer */
+.footer{
+  background: #242424;
+  color: #6c757d;
+  padding: 50px 0;
+}
+.social-networks-footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.icon-sn-footer{
+  border: none;
+  background: #F1F1F114;
+  padding: 11px;
+}
+.icon-sn-footer i{
+  color: #6c757d;
+}
+
+
 
 
 /* 
