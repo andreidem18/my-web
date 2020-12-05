@@ -16,19 +16,19 @@
 
 
     <!-- nav bar -->
-    <nav class = "navbar navbar-md">
-        <div class = "logo">Andres</div>
+    <nav class = "navbar">
+        <div class = "logo"><div>Andres</div></div>
         <div>
-            <ul id="menu" class="options">
-                <li> <a href="#">Home</a> </li>
-                <li> <a href="#">About</a> </li>
-                <li> <a href="#">Services</a> </li>
-                <li> <a href="#">Clients</a> </li>
-                <li> <a href="#">Portfolio</a> </li>
-                <li> <a href="#">Blog</a> </li>
-                <li> <a href="#">Contact</a> </li>
+            <ul id="menu" class="hidden">
+                <li> <a href="#" class="option">Home</a> </li>
+                <li> <a href="#" class="option">About</a> </li>
+                <li> <a href="#" class="option">Services</a> </li>
+                <li> <a href="#" class="option">Clients</a> </li>
+                <li> <a href="#" class="option">Portfolio</a> </li>
+                <li> <a href="#" class="option">Blog</a> </li>
+                <li> <a href="#" class="option">Contact</a> </li>
             </ul>
-            <a onclick="showMenu()" href="#"><i class="fas fa-bars"></i></a>
+            <a onclick="showMenu()" class="burguer" href="#"><i class="fas fa-bars"></i></a>
         </div>
     </nav>
 
@@ -108,7 +108,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, reiciendis! Impedit minima, doloribus, ipsa ex in sit obcaecati.
             </p>
             <div class="space-top-3 row">
-                <div class="col-4">
+                <div class="col-4 padding">
                     <div class="target center-text">
                         <div class="icon-services">
                             <i class="fas fa-chart-line pink-text"></i>
@@ -122,7 +122,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 padding">
                     <div class="target center-text">
                         <div class="icon-services">
                             <i class="fas fa-mug-hot pink-text"></i>
@@ -136,7 +136,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 padding">
                     <div class="target center-text">
                         <div class="icon-services">
                             <i class="fas fa-cloud-upload-alt pink-text"></i>
@@ -153,7 +153,7 @@
             </div>
 
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 padding">
                     <div class="target center-text">
                         <div class="icon-services">
                             <i class="fab fa-chromecast pink-text"></i>
@@ -167,7 +167,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 padding">
                     <div class="target center-text">
                         <div class="icon-services">
                             <i class="fas fa-draw-polygon pink-text"></i>
@@ -181,7 +181,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 padding">
                     <div class="target center-text">
                         <div class="icon-services">
                             <i class="fas fa-edit pink-text"></i>
@@ -263,8 +263,66 @@
         <p class="gray-text description center-text space-top">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat facilis reprehenderit dolor.
         </p>
+        <ul class = "categories space-top">
+            <li class="works-buttom works-buttom-selected"><a href="#">ALL</a></li>
+            <li class="works-buttom"><a href="#">SEO</a></li>
+            <li class="works-buttom"><a href="#">WEBDESIGN</a></li>
+            <li class="works-buttom"><a href="#">WORK</a></li>
+            <li class="works-buttom"><a href="#">WORDPRESS</a></li>
+        </ul>
 
-        
+        <div class="row space-top">
+            <div class="col-4 padding">
+                <div class="p-relative without-interline">
+                    <a href="./img/Object1.jpg" class = "img-zoom">
+                        <div class="overlay-work"></div>
+                        <img src="./img/Object1.jpg" alt="" class="work">
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 padding">
+                <div class="p-relative without-interline">
+                    <a href="./img/Object2.jpg" class = "img-zoom">
+                        <div class="overlay-work"></div>
+                        <img src="./img/Object2.jpg" alt="" class="work">
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 padding">
+                <div class="p-relative without-interline">
+                    <a href="./img/Object3.jpg" class = "img-zoom">
+                        <div class="overlay-work"></div>
+                        <img src="./img/Object3.jpg" alt="" class="work">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 padding">
+                <div class="p-relative without-interline">
+                    <a href="./img/Object4.jpg" class = "img-zoom">
+                        <div class="overlay-work"></div>
+                        <img src="./img/Object4.jpg" alt="" class="work">
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 padding">
+                <div class="p-relative without-interline">
+                    <a href="./img/Object5.jpg" class = "img-zoom">
+                        <div class="overlay-work"></div>
+                        <img src="./img/Object5.jpg" alt="" class="work">
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 padding">
+                <div class="p-relative without-interline">
+                    <a href="./img/Object6.jpg" class = "img-zoom">
+                        <div class="overlay-work"></div>
+                        <img src="./img/Object6.jpg" alt="" class="work">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
