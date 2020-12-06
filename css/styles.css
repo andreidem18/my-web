@@ -264,7 +264,7 @@ nav div a i{
 }
 .works-buttom:hover a{
   color: white;
-  transition: 0.5s
+  transition: 0.5s;
 }
 .work{
   width: 100%;
@@ -276,19 +276,32 @@ nav div a i{
   display: inline-block;
 }
 .overlay-work{
-  background: rgba(0, 0, 0, 0.384);
+  background: rgba(0, 0, 0, 0.6);
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 0.3s;
   border-radius: 4px;
-  position: absolute;
-  display: none;
 }
-.work:hover .overlay-work{
-  display: block;
-  transition: 0.3s;
+.overlay-work:hover{
+  opacity: 1;
+  transition: 0.3s
+}
+.category{
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  margin-bottom: 1.6rem;
+}
+.work-title{
+  color: white;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 .read-more{
   font-size: 1.1rem;
